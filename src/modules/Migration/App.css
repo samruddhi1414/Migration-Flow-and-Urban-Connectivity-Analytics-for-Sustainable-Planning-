@@ -1,0 +1,908 @@
+/* =========================================================
+   MUMBAI & MAHARASHTRA MIGRATION & RESIDENTIAL DASHBOARD
+   PROFESSIONAL DATA SCIENCE DASHBOARD STYLES
+========================================================= */
+
+:root {
+  --bg-page: #f0f4f8;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f8fafc;
+  --border-color: #dce5ee;
+  --border-subtle: #e2e8f0;
+  
+  --text-navy: #0a2540;
+  --text-dark: #1e293b;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+  
+  --primary-blue: #2563eb;
+  --primary-blue-light: #eff6ff;
+  --primary-blue-border: #bfdbfe;
+  
+  --teal-accent: #0d9488;
+  --teal-light: #f0fdfa;
+  
+  --purple-accent: #7c3aed;
+  
+  --green-good: #16a34a;
+  --green-light: #f0fdf4;
+  --green-border: #bbf7d0;
+  --green-text: #14532d;
+  
+  --yellow-livable: #eab308;
+  --red-dilapidated: #dc2626;
+  
+  --shadow-sm: 0 1px 3px rgba(15, 35, 60, 0.04);
+  --shadow-md: 0 4px 12px rgba(15, 35, 60, 0.05);
+  --shadow-lg: 0 8px 24px rgba(15, 35, 60, 0.07);
+}
+
+/* Loading State */
+.loading-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-page);
+  gap: 16px;
+}
+
+.loading-spinner {
+  width: 44px;
+  height: 44px;
+  border: 4px solid #cbd5e1;
+  border-top-color: var(--primary-blue);
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-navy);
+}
+
+/* Base App Layout */
+.dashboard-app {
+  min-height: 100vh;
+  background-color: var(--bg-page);
+  color: var(--text-dark);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* TOPBAR NAVIGATION */
+.topbar {
+  width: 100%;
+  background: #081a30;
+  border-bottom: 1px solid #132b49;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.topbar-container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 10px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-badge {
+  background: #1e3a5f;
+  color: #60a5fa;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 1px solid #2563eb44;
+}
+
+.brand-title {
+  color: #f8fafc;
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.topbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-tab {
+  background: transparent;
+  color: #94a3b8;
+  border: 1px solid transparent;
+  padding: 6px 16px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.nav-tab:hover {
+  color: #ffffff;
+  background: #132b49;
+}
+
+.nav-tab.active {
+  background: var(--primary-blue);
+  color: #ffffff;
+  border-color: #3b82f6;
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.35);
+}
+
+/* Page Container */
+.page-container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 20px 28px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* HERO CARD */
+.hero-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-top: 4px solid var(--primary-blue);
+  border-radius: 12px;
+  padding: 22px 28px;
+  box-shadow: var(--shadow-sm);
+  text-align: left;
+}
+
+.hero-eyebrow {
+  color: var(--teal-accent);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.hero-heading {
+  margin: 0;
+  color: var(--text-navy) !important;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.3px;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.hero-subheading {
+  margin: 6px 0 0 0;
+  color: var(--text-muted);
+  font-size: 13.5px;
+  line-height: 1.5;
+  max-width: 1000px;
+}
+
+/* KPI ROW */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.kpi-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 14px 16px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 98px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.kpi-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.kpi-title {
+  color: var(--text-muted);
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.kpi-number {
+  color: var(--text-navy);
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.4px;
+  white-space: nowrap;
+}
+
+.kpi-subtext {
+  color: var(--text-light);
+  font-size: 11px;
+  font-weight: 500;
+  margin-top: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* DASHBOARD VIEW / FILTER */
+.filter-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 14px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.filter-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.filter-title {
+  margin: 0;
+  color: var(--text-navy);
+  font-size: 16px;
+  font-weight: 750;
+  line-height: 1.2;
+}
+
+.filter-subtitle {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.filter-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-label {
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.ward-select {
+  width: 280px;
+  padding: 8px 12px;
+  background: var(--bg-card);
+  color: var(--text-navy);
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 12.5px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.ward-select:focus {
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+/* SECTION CARD TEMPLATE */
+.dashboard-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 18px 22px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+}
+
+/* SECTION HEADERS */
+.section-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.section-badge {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--primary-blue-light);
+  color: var(--primary-blue);
+  font-size: 11px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--primary-blue-border);
+}
+
+.section-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.section-title-text {
+  margin: 0;
+  padding: 0;
+  color: var(--text-navy) !important;
+  font-size: 17px;
+  font-weight: 750;
+  line-height: 1.25;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.section-desc-text {
+  margin: 0;
+  padding: 0;
+  color: var(--text-muted) !important;
+  font-size: 11.5px;
+  line-height: 1.4;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.section-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* VISUAL ROW (Chart Left + Insight Right) */
+.visual-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 18px;
+  align-items: center;
+}
+
+.chart-area {
+  width: 100%;
+  height: 230px;
+  min-width: 0;
+}
+
+.chart-area.full-chart {
+  height: 240px;
+}
+
+/* Insight Card on Right */
+.insight-card {
+  background: #f8fbff;
+  border: 1px solid #dce8f6;
+  border-left: 3.5px solid var(--primary-blue);
+  border-radius: 8px;
+  padding: 14px 15px;
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.04);
+}
+
+.insight-badge {
+  color: var(--primary-blue);
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.insight-text {
+  margin: 0;
+  color: #1e3a5f;
+  font-size: 11.5px;
+  line-height: 1.5;
+}
+
+.insight-text strong {
+  color: var(--text-navy);
+}
+
+/* WARD & DISTRICT EXPLORER DRILLDOWN PANEL */
+.ward-explorer-panel {
+  background: #f8fbff;
+  border: 1px solid #d8e6f5;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.05);
+}
+
+.ward-explorer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ward-explorer-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ward-explorer-tag {
+  background: var(--primary-blue);
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.6px;
+}
+
+.ward-explorer-name {
+  margin: 0;
+  font-size: 13.5px;
+  font-weight: 750;
+  color: var(--text-navy);
+}
+
+.ward-reset-btn {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #475569;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.ward-reset-btn:hover {
+  background: #f1f5f9;
+  color: var(--red-dilapidated);
+  border-color: #fca5a5;
+}
+
+.ward-explorer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.ward-explorer-card {
+  background: #ffffff;
+  border: 1px solid #dce6ef;
+  border-radius: 8px;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.explorer-card-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.explorer-card-value {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text-navy);
+}
+
+.ward-housing-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 7px;
+  padding: 8px 14px;
+  font-size: 11.5px;
+}
+
+.housing-bar-title {
+  color: var(--text-navy);
+  font-weight: 700;
+}
+
+.housing-bar-chips {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.housing-chip {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #334155;
+  font-size: 11.5px;
+}
+
+.chip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.good-dot {
+  background: var(--green-good);
+}
+
+.livable-dot {
+  background: var(--yellow-livable);
+}
+
+.dilapidated-dot {
+  background: var(--red-dilapidated);
+}
+
+.ward-table-hint {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #f8fafc;
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.hint-icon {
+  color: var(--primary-blue);
+  font-weight: 700;
+}
+
+/* WARD & DISTRICT TABLE */
+.table-wrapper {
+  max-height: 290px;
+  overflow-y: auto;
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  background: var(--bg-card);
+}
+
+.ward-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11.5px;
+  text-align: left;
+}
+
+.ward-table thead th {
+  position: sticky;
+  top: 0;
+  background: #f1f5f9;
+  color: var(--text-navy);
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 9px 14px;
+  border-bottom: 1px solid #cbd5e1;
+  z-index: 10;
+}
+
+.ward-table tbody td {
+  padding: 7px 14px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #334155;
+}
+
+.ward-table tbody tr {
+  cursor: pointer;
+  transition: background-color 0.12s ease;
+}
+
+.ward-table tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+.ward-table tbody tr.active-row {
+  background-color: #eff6ff;
+}
+
+.ward-table tbody tr.active-row td {
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+.ward-id {
+  font-weight: 700;
+  color: var(--primary-blue);
+}
+
+.ward-name {
+  font-weight: 500;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* HOUSING LEGEND */
+.housing-legend {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.legend-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.legend-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.good-color {
+  background: var(--green-good);
+}
+
+.livable-color {
+  background: var(--yellow-livable);
+}
+
+.dilapidated-color {
+  background: var(--red-dilapidated);
+}
+
+/* MIGRATION STORY */
+.story-flow-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.story-step-card {
+  flex: 1;
+  background: #f4f8fe;
+  border: 1px solid #dbeafe;
+  border-radius: 8px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: center;
+}
+
+.story-step-label {
+  font-size: 9.5px;
+  font-weight: 800;
+  color: var(--primary-blue);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.story-step-value {
+  font-size: 12px;
+  font-weight: 750;
+  color: var(--text-navy);
+  line-height: 1.3;
+}
+
+.story-flow-arrow {
+  color: #3b82f6;
+  font-size: 18px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+/* 3 STRONGEST INSIGHTS & 3 RECOMMENDATIONS */
+.insights-section,
+.recommendations-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section-heading-plain {
+  margin: 0;
+  color: var(--text-navy) !important;
+  font-size: 16px;
+  font-weight: 750;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.three-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.insight-card-pill {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  box-shadow: 0 1px 4px rgba(37, 99, 235, 0.04);
+}
+
+.insight-check {
+  color: var(--primary-blue);
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.insight-pill-text {
+  margin: 0;
+  color: #1e3a8a;
+  font-size: 11.5px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.recommendation-card-pill {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  box-shadow: 0 1px 4px rgba(22, 163, 74, 0.04);
+}
+
+.rec-arrow {
+  color: var(--green-good);
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.rec-pill-text {
+  margin: 0;
+  color: #14532d;
+  font-size: 11.5px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+/* DATA & SOURCES FOOTER */
+.footer-source {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 11px;
+  padding: 12px 0 20px;
+}
+
+/* RECHARTS TWEAKS */
+.recharts-cartesian-axis-tick-value {
+  font-family: inherit !important;
+}
+
+.recharts-default-tooltip {
+  font-family: inherit !important;
+  font-size: 11.5px !important;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1200px) {
+  .kpi-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .visual-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .insight-card {
+    margin-top: 4px;
+  }
+  
+  .ward-explorer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .ward-housing-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .story-flow-row {
+    flex-direction: column;
+  }
+  
+  .story-flow-arrow {
+    transform: rotate(90deg);
+  }
+  
+  .three-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .topbar-container {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  
+  .page-container {
+    padding: 14px 16px 30px;
+  }
+  
+  .hero-heading {
+    font-size: 22px;
+  }
+  
+  .kpi-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .filter-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .ward-select {
+    width: 100%;
+  }
+  
+  .section-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .ward-explorer-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,314 @@
+[
+  {
+    "ward": "101",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0101",
+    "population": 92528,
+    "male": 51198,
+    "female": 41330,
+    "households": 21985
+  },
+  {
+    "ward": "102",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0102",
+    "population": 32450,
+    "male": 16739,
+    "female": 15711,
+    "households": 7787
+  },
+  {
+    "ward": "103",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0103",
+    "population": 23963,
+    "male": 13289,
+    "female": 10674,
+    "households": 5618
+  },
+  {
+    "ward": "104",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0104",
+    "population": 12402,
+    "male": 7165,
+    "female": 5237,
+    "households": 2925
+  },
+  {
+    "ward": "105",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0105",
+    "population": 23671,
+    "male": 12836,
+    "female": 10835,
+    "households": 5551
+  },
+  {
+    "ward": "206",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0206",
+    "population": 26794,
+    "male": 15540,
+    "female": 11254,
+    "households": 5802
+  },
+  {
+    "ward": "207",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0207",
+    "population": 14451,
+    "male": 8311,
+    "female": 6140,
+    "households": 3223
+  },
+  {
+    "ward": "208",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0208",
+    "population": 55886,
+    "male": 30270,
+    "female": 25616,
+    "households": 11440
+  },
+  {
+    "ward": "209",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0209",
+    "population": 30159,
+    "male": 16324,
+    "female": 13835,
+    "households": 6675
+  },
+  {
+    "ward": "310",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0310",
+    "population": 23703,
+    "male": 13425,
+    "female": 10278,
+    "households": 5097
+  },
+  {
+    "ward": "311",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0311",
+    "population": 25646,
+    "male": 14566,
+    "female": 11080,
+    "households": 5335
+  },
+  {
+    "ward": "312",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0312",
+    "population": 37220,
+    "male": 21990,
+    "female": 15230,
+    "households": 7572
+  },
+  {
+    "ward": "313",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0313",
+    "population": 17853,
+    "male": 13437,
+    "female": 4416,
+    "households": 3960
+  },
+  {
+    "ward": "314",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0314",
+    "population": 30878,
+    "male": 17354,
+    "female": 13524,
+    "households": 7171
+  },
+  {
+    "ward": "315",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0315",
+    "population": 30861,
+    "male": 17255,
+    "female": 13606,
+    "households": 7344
+  },
+  {
+    "ward": "416",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0416",
+    "population": 52217,
+    "male": 28767,
+    "female": 23450,
+    "households": 11187
+  },
+  {
+    "ward": "417",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0417",
+    "population": 54783,
+    "male": 28721,
+    "female": 26062,
+    "households": 10999
+  },
+  {
+    "ward": "418",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0418",
+    "population": 38581,
+    "male": 19915,
+    "female": 18666,
+    "households": 9356
+  },
+  {
+    "ward": "419",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0419",
+    "population": 15065,
+    "male": 8087,
+    "female": 6978,
+    "households": 3641
+  },
+  {
+    "ward": "420",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0420",
+    "population": 67661,
+    "male": 35611,
+    "female": 32050,
+    "households": 15333
+  },
+  {
+    "ward": "421",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0421",
+    "population": 118559,
+    "male": 61887,
+    "female": 56672,
+    "households": 27040
+  },
+  {
+    "ward": "522",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0522",
+    "population": 88149,
+    "male": 49531,
+    "female": 38618,
+    "households": 18125
+  },
+  {
+    "ward": "523",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0523",
+    "population": 57232,
+    "male": 30411,
+    "female": 26821,
+    "households": 12336
+  },
+  {
+    "ward": "524",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0524",
+    "population": 19851,
+    "male": 9816,
+    "female": 10035,
+    "households": 4264
+  },
+  {
+    "ward": "525",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0525",
+    "population": 32121,
+    "male": 17602,
+    "female": 14519,
+    "households": 5943
+  },
+  {
+    "ward": "526",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0526",
+    "population": 35980,
+    "male": 20185,
+    "female": 15795,
+    "households": 6842
+  },
+  {
+    "ward": "527",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0527",
+    "population": 159953,
+    "male": 88522,
+    "female": 71431,
+    "households": 30836
+  },
+  {
+    "ward": "628",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0628",
+    "population": 107563,
+    "male": 55731,
+    "female": 51832,
+    "households": 24948
+  },
+  {
+    "ward": "629",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0629",
+    "population": 168063,
+    "male": 90695,
+    "female": 77368,
+    "households": 35973
+  },
+  {
+    "ward": "630",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0630",
+    "population": 85346,
+    "male": 44313,
+    "female": 41033,
+    "households": 18812
+  },
+  {
+    "ward": "731",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0731",
+    "population": 44768,
+    "male": 22544,
+    "female": 22224,
+    "households": 11331
+  },
+  {
+    "ward": "732",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0732",
+    "population": 484266,
+    "male": 262640,
+    "female": 221626,
+    "households": 108293
+  },
+  {
+    "ward": "835",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0835",
+    "population": 48021,
+    "male": 24973,
+    "female": 23048,
+    "households": 10786
+  },
+  {
+    "ward": "836",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0836",
+    "population": 148827,
+    "male": 78660,
+    "female": 70167,
+    "households": 33628
+  },
+  {
+    "ward": "837",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0837",
+    "population": 96529,
+    "male": 56388,
+    "female": 40141,
+    "households": 20910
+  },
+  {
+    "ward": "838",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0838",
+    "population": 84372,
+    "male": 48741,
+    "female": 35631,
+    "households": 18133
+  },
+  {
+    "ward": "933",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0933",
+    "population": 454589,
+    "male": 258777,
+    "female": 195812,
+    "households": 94194
+  },
+  {
+    "ward": "934",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0934",
+    "population": 80583,
+    "male": 40008,
+    "female": 40575,
+    "households": 19603
+  },
+  {
+    "ward": "935",
+    "name": "Greater Mumbai (M Corp.) (Part) WARD NO.-0935",
+    "population": 63867,
+    "male": 32384,
+    "female": 31483,
+    "households": 14341
+  }
+]

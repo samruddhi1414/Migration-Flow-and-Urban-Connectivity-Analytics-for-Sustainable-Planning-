@@ -1,0 +1,353 @@
+[
+  {
+    "ward": "0101",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.101",
+    "houseCondition": {
+      "good": 55.3,
+      "livable": 42.6,
+      "dilapidated": 2.1
+    }
+  },
+  {
+    "ward": "0102",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.102",
+    "houseCondition": {
+      "good": 83.1,
+      "livable": 16.1,
+      "dilapidated": 0.7
+    }
+  },
+  {
+    "ward": "0103",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.103",
+    "houseCondition": {
+      "good": 77.3,
+      "livable": 20.6,
+      "dilapidated": 2.1
+    }
+  },
+  {
+    "ward": "0104",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.104",
+    "houseCondition": {
+      "good": 74.4,
+      "livable": 22.8,
+      "dilapidated": 2.7
+    }
+  },
+  {
+    "ward": "0105",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.105",
+    "houseCondition": {
+      "good": 75.3,
+      "livable": 23.9,
+      "dilapidated": 0.8
+    }
+  },
+  {
+    "ward": "0206",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.206",
+    "houseCondition": {
+      "good": 62.4,
+      "livable": 34.7,
+      "dilapidated": 2.9
+    }
+  },
+  {
+    "ward": "0207",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.207",
+    "houseCondition": {
+      "good": 79.9,
+      "livable": 18.5,
+      "dilapidated": 1.6
+    }
+  },
+  {
+    "ward": "0208",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.208",
+    "houseCondition": {
+      "good": 79.7,
+      "livable": 19.7,
+      "dilapidated": 0.6
+    }
+  },
+  {
+    "ward": "0209",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.209",
+    "houseCondition": {
+      "good": 60.4,
+      "livable": 36.9,
+      "dilapidated": 2.7
+    }
+  },
+  {
+    "ward": "0310",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.310",
+    "houseCondition": {
+      "good": 75.5,
+      "livable": 23.9,
+      "dilapidated": 0.6
+    }
+  },
+  {
+    "ward": "0311",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.311",
+    "houseCondition": {
+      "good": 72.1,
+      "livable": 27.0,
+      "dilapidated": 0.8
+    }
+  },
+  {
+    "ward": "0312",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.312",
+    "houseCondition": {
+      "good": 66.8,
+      "livable": 31.1,
+      "dilapidated": 2.1
+    }
+  },
+  {
+    "ward": "0313",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.313",
+    "houseCondition": {
+      "good": 68.0,
+      "livable": 29.4,
+      "dilapidated": 2.5
+    }
+  },
+  {
+    "ward": "0314",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.314",
+    "houseCondition": {
+      "good": 79.6,
+      "livable": 19.2,
+      "dilapidated": 1.2
+    }
+  },
+  {
+    "ward": "0315",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.315",
+    "houseCondition": {
+      "good": 78.7,
+      "livable": 20.3,
+      "dilapidated": 1.0
+    }
+  },
+  {
+    "ward": "0416",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.416",
+    "houseCondition": {
+      "good": 77.2,
+      "livable": 21.6,
+      "dilapidated": 1.1
+    }
+  },
+  {
+    "ward": "0417",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.417",
+    "houseCondition": {
+      "good": 81.1,
+      "livable": 16.9,
+      "dilapidated": 2.0
+    }
+  },
+  {
+    "ward": "0418",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.418",
+    "houseCondition": {
+      "good": 85.2,
+      "livable": 13.6,
+      "dilapidated": 1.1
+    }
+  },
+  {
+    "ward": "0419",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.419",
+    "houseCondition": {
+      "good": 78.3,
+      "livable": 19.5,
+      "dilapidated": 2.2
+    }
+  },
+  {
+    "ward": "0420",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.420",
+    "houseCondition": {
+      "good": 81.2,
+      "livable": 18.0,
+      "dilapidated": 0.7
+    }
+  },
+  {
+    "ward": "0421",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.421",
+    "houseCondition": {
+      "good": 84.3,
+      "livable": 15.2,
+      "dilapidated": 0.5
+    }
+  },
+  {
+    "ward": "0522",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.522",
+    "houseCondition": {
+      "good": 54.4,
+      "livable": 33.6,
+      "dilapidated": 12.0
+    }
+  },
+  {
+    "ward": "0523",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.523",
+    "houseCondition": {
+      "good": 85.8,
+      "livable": 14.1,
+      "dilapidated": 0.2
+    }
+  },
+  {
+    "ward": "0524",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.524",
+    "houseCondition": {
+      "good": 71.5,
+      "livable": 28.1,
+      "dilapidated": 0.4
+    }
+  },
+  {
+    "ward": "0525",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.525",
+    "houseCondition": {
+      "good": 74.5,
+      "livable": 23.5,
+      "dilapidated": 2.0
+    }
+  },
+  {
+    "ward": "0526",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.526",
+    "houseCondition": {
+      "good": 73.6,
+      "livable": 24.6,
+      "dilapidated": 1.8
+    }
+  },
+  {
+    "ward": "0527",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.527",
+    "houseCondition": {
+      "good": 72.9,
+      "livable": 25.1,
+      "dilapidated": 1.9
+    }
+  },
+  {
+    "ward": "0628",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.628",
+    "houseCondition": {
+      "good": 80.9,
+      "livable": 17.8,
+      "dilapidated": 1.3
+    }
+  },
+  {
+    "ward": "0629",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.629",
+    "houseCondition": {
+      "good": 67.7,
+      "livable": 30.9,
+      "dilapidated": 1.5
+    }
+  },
+  {
+    "ward": "0630",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.630",
+    "houseCondition": {
+      "good": 75.1,
+      "livable": 23.3,
+      "dilapidated": 1.6
+    }
+  },
+  {
+    "ward": "0731",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.731",
+    "houseCondition": {
+      "good": 83.7,
+      "livable": 15.7,
+      "dilapidated": 0.6
+    }
+  },
+  {
+    "ward": "0732",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.732",
+    "houseCondition": {
+      "good": 62.6,
+      "livable": 36.2,
+      "dilapidated": 1.2
+    }
+  },
+  {
+    "ward": "0835",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.835",
+    "houseCondition": {
+      "good": 75.9,
+      "livable": 22.0,
+      "dilapidated": 2.2
+    }
+  },
+  {
+    "ward": "0836",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.836",
+    "houseCondition": {
+      "good": 78.6,
+      "livable": 20.7,
+      "dilapidated": 0.7
+    }
+  },
+  {
+    "ward": "0837",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.837",
+    "houseCondition": {
+      "good": 72.2,
+      "livable": 24.7,
+      "dilapidated": 3.1
+    }
+  },
+  {
+    "ward": "0838",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.838",
+    "houseCondition": {
+      "good": 69.8,
+      "livable": 29.4,
+      "dilapidated": 0.9
+    }
+  },
+  {
+    "ward": "0933",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.933",
+    "houseCondition": {
+      "good": 69.2,
+      "livable": 30.0,
+      "dilapidated": 0.8
+    }
+  },
+  {
+    "ward": "0934",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.934",
+    "houseCondition": {
+      "good": 81.3,
+      "livable": 17.5,
+      "dilapidated": 1.1
+    }
+  },
+  {
+    "ward": "0935",
+    "name": "Greater Mumbai (M Corp.) (Part) - Ward No.935",
+    "houseCondition": {
+      "good": 79.9,
+      "livable": 19.1,
+      "dilapidated": 1.0
+    }
+  }
+]

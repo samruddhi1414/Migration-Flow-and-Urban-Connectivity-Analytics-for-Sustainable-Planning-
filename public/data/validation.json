@@ -1,0 +1,20 @@
+{
+  "migrationTotal": 1233320,
+  "genderCheck": {
+    "malePlusFemale": 1233320,
+    "matchesTotal": true
+  },
+  "reasonCheck": {
+    "reasonSum": 838378,
+    "matchesTotal": false
+  },
+  "durationCheck": {
+    "durationSum": 1203528,
+    "publishedTotal": 1233320,
+    "difference": 29792,
+    "matchesTotal": false,
+    "note": "Published duration categories sum to 1,203,528 while the source total is 1,233,320."
+  },
+  "wardCount": 39,
+  "housingWardCount": 39
+}

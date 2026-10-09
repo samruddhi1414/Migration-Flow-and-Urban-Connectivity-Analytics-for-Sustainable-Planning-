@@ -1,0 +1,212 @@
+[
+  {
+    "district": "Thane",
+    "migrants": 7430733,
+    "male": 3806404,
+    "female": 3624329
+  },
+  {
+    "district": "Pune",
+    "migrants": 6094325,
+    "male": 2958400,
+    "female": 3135925
+  },
+  {
+    "district": "Mumbai Suburban",
+    "migrants": 4271562,
+    "male": 2366251,
+    "female": 1905311
+  },
+  {
+    "district": "Nashik",
+    "migrants": 3434553,
+    "male": 1506745,
+    "female": 1927808
+  },
+  {
+    "district": "Ahmadnagar",
+    "migrants": 2492900,
+    "male": 1011248,
+    "female": 1481652
+  },
+  {
+    "district": "Kolhapur",
+    "migrants": 2291809,
+    "male": 941243,
+    "female": 1350566
+  },
+  {
+    "district": "Jalgaon",
+    "migrants": 2268100,
+    "male": 912249,
+    "female": 1355851
+  },
+  {
+    "district": "Nagpur",
+    "migrants": 2114895,
+    "male": 910508,
+    "female": 1204387
+  },
+  {
+    "district": "Satara",
+    "migrants": 1924434,
+    "male": 774873,
+    "female": 1149561
+  },
+  {
+    "district": "Solapur",
+    "migrants": 1852575,
+    "male": 693922,
+    "female": 1158653
+  },
+  {
+    "district": "Aurangabad",
+    "migrants": 1790219,
+    "male": 703630,
+    "female": 1086589
+  },
+  {
+    "district": "Sangli",
+    "migrants": 1665083,
+    "male": 680689,
+    "female": 984394
+  },
+  {
+    "district": "Raigarh",
+    "migrants": 1479878,
+    "male": 647042,
+    "female": 832836
+  },
+  {
+    "district": "Amravati",
+    "migrants": 1263301,
+    "male": 440846,
+    "female": 822455
+  },
+  {
+    "district": "Yavatmal",
+    "migrants": 1240500,
+    "male": 431478,
+    "female": 809022
+  },
+  {
+    "district": "Mumbai",
+    "migrants": 1233320,
+    "male": 703470,
+    "female": 529850
+  },
+  {
+    "district": "Buldana",
+    "migrants": 1187626,
+    "male": 392118,
+    "female": 795508
+  },
+  {
+    "district": "Nanded",
+    "migrants": 1180040,
+    "male": 323862,
+    "female": 856178
+  },
+  {
+    "district": "Chandrapur",
+    "migrants": 1173917,
+    "male": 458349,
+    "female": 715568
+  },
+  {
+    "district": "Dhule",
+    "migrants": 1055137,
+    "male": 431879,
+    "female": 623258
+  },
+  {
+    "district": "Latur",
+    "migrants": 920301,
+    "male": 262483,
+    "female": 657818
+  },
+  {
+    "district": "Bid",
+    "migrants": 896928,
+    "male": 216240,
+    "female": 680688
+  },
+  {
+    "district": "Ratnagiri",
+    "migrants": 831042,
+    "male": 281599,
+    "female": 549443
+  },
+  {
+    "district": "Akola",
+    "migrants": 793721,
+    "male": 278039,
+    "female": 515682
+  },
+  {
+    "district": "Wardha",
+    "migrants": 781501,
+    "male": 309683,
+    "female": 471818
+  },
+  {
+    "district": "Jalna",
+    "migrants": 694819,
+    "male": 178670,
+    "female": 516149
+  },
+  {
+    "district": "Osmanabad",
+    "migrants": 691870,
+    "male": 212877,
+    "female": 478993
+  },
+  {
+    "district": "Parbhani",
+    "migrants": 669619,
+    "male": 179455,
+    "female": 490164
+  },
+  {
+    "district": "Nandurbar",
+    "migrants": 658747,
+    "male": 246918,
+    "female": 411829
+  },
+  {
+    "district": "Gondiya",
+    "migrants": 526833,
+    "male": 137913,
+    "female": 388920
+  },
+  {
+    "district": "Sindhudurg",
+    "migrants": 524613,
+    "male": 196229,
+    "female": 328384
+  },
+  {
+    "district": "Bhandara",
+    "migrants": 521793,
+    "male": 154376,
+    "female": 367417
+  },
+  {
+    "district": "Gadchiroli",
+    "migrants": 520849,
+    "male": 200183,
+    "female": 320666
+  },
+  {
+    "district": "Washim",
+    "migrants": 493898,
+    "male": 147914,
+    "female": 345984
+  },
+  {
+    "district": "Hingoli",
+    "migrants": 405335,
+    "male": 87818,
+    "female": 317517
+  }
+]

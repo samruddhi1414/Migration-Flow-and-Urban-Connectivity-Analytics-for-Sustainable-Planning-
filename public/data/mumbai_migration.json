@@ -1,0 +1,121 @@
+{
+  "city": "Mumbai",
+  "source": "Census 2011 D-03",
+  "totalMigrants": 1233320,
+  "gender": {
+    "male": 703470,
+    "female": 529850
+  },
+  "genderData": [
+    {
+      "gender": "Male",
+      "value": 703470
+    },
+    {
+      "gender": "Female",
+      "value": 529850
+    }
+  ],
+  "reasons": [
+    {
+      "reason": "Work / Employment",
+      "value": 391332
+    },
+    {
+      "reason": "Business",
+      "value": 363954
+    },
+    {
+      "reason": "Education",
+      "value": 27378
+    },
+    {
+      "reason": "Marriage",
+      "value": 18204
+    },
+    {
+      "reason": "Moved after birth",
+      "value": 14638
+    },
+    {
+      "reason": "Moved with household",
+      "value": 3566
+    },
+    {
+      "reason": "Others",
+      "value": 19306
+    }
+  ],
+  "duration": [
+    {
+      "duration": "<1 year",
+      "value": 41556
+    },
+    {
+      "duration": "1–4 years",
+      "value": 182858
+    },
+    {
+      "duration": "5–9 years",
+      "value": 161367
+    },
+    {
+      "duration": "10+ years",
+      "value": 817747
+    }
+  ],
+  "origins": [
+    {
+      "state": "Uttar Pradesh",
+      "value": 296593
+    },
+    {
+      "state": "Gujarat",
+      "value": 95789
+    },
+    {
+      "state": "Bihar",
+      "value": 63207
+    },
+    {
+      "state": "Rajasthan",
+      "value": 62363
+    },
+    {
+      "state": "Karnataka",
+      "value": 52269
+    },
+    {
+      "state": "West Bengal",
+      "value": 44954
+    },
+    {
+      "state": "Tamil Nadu",
+      "value": 44003
+    },
+    {
+      "state": "Andhra Pradesh",
+      "value": 33862
+    },
+    {
+      "state": "Madhya Pradesh",
+      "value": 16954
+    },
+    {
+      "state": "Jharkhand",
+      "value": 12691
+    },
+    {
+      "state": "Kerala",
+      "value": 12471
+    },
+    {
+      "state": "NCT of Delhi",
+      "value": 10475
+    },
+    {
+      "state": "Odisha",
+      "value": 8294
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "state": "Maharashtra",
+  "source": "Census 2011 D-03",
+  "totalMigrants": 57376776,
+  "gender": {
+    "male": 24185603,
+    "female": 33191173
+  },
+  "genderData": [
+    {
+      "gender": "Male",
+      "value": 24185603
+    },
+    {
+      "gender": "Female",
+      "value": 33191173
+    }
+  ],
+  "reasons": [
+    {
+      "reason": "Work / Employment",
+      "value": 7901819
+    },
+    {
+      "reason": "Business",
+      "value": 6819915
+    },
+    {
+      "reason": "Education",
+      "value": 1081904
+    },
+    {
+      "reason": "Marriage",
+      "value": 382033
+    },
+    {
+      "reason": "Moved after birth",
+      "value": 243064
+    },
+    {
+      "reason": "Moved with household",
+      "value": 138969
+    },
+    {
+      "reason": "Others",
+      "value": 775062
+    }
+  ],
+  "duration": [
+    {
+      "duration": "<1 year",
+      "value": 3055149
+    },
+    {
+      "duration": "1\u20134 years",
+      "value": 9312752
+    },
+    {
+      "duration": "5\u20139 years",
+      "value": 8252297
+    },
+    {
+      "duration": "10+ years",
+      "value": 29304809
+    }
+  ],
+  "origins": [
+    {
+      "state": "Uttar Pradesh",
+      "value": 2754706
+    },
+    {
+      "state": "Karnataka",
+      "value": 1399591
+    },
+    {
+      "state": "Gujarat",
+      "value": 983653
+    },
+    {
+      "state": "Madhya Pradesh",
+      "value": 824624
+    },
+    {
+      "state": "Rajasthan",
+      "value": 570233
+    },
+    {
+      "state": "Bihar",
+      "value": 568667
+    },
+    {
+      "state": "Andhra Pradesh",
+      "value": 437034
+    },
+    {
+      "state": "West Bengal",
+      "value": 309766
+    },
+    {
+      "state": "Tamil Nadu",
+      "value": 226029
+    },
+    {
+      "state": "Kerala",
+      "value": 214889
+    },
+    {
+      "state": "Chhattisgarh",
+      "value": 168379
+    },
+    {
+      "state": "Odisha",
+      "value": 114411
+    },
+    {
+      "state": "Jharkhand",
+      "value": 100285
+    },
+    {
+      "state": "NCT of Delhi",
+      "value": 86131
+    },
+    {
+      "state": "Punjab",
+      "value": 73951
+    },
+    {
+      "state": "Goa",
+      "value": 68358
+    }
+  ],
+  "districtsCount": 35
+}

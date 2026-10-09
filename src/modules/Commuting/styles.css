@@ -1,0 +1,146 @@
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#173f5f;background:#f2f5f6;font-synthesis:none}*{box-sizing:border-box}body{margin:0;background:#f2f5f6}.hero{background:#173f5f;color:white;padding:30px 42px 28px;display:flex;justify-content:space-between;align-items:center;border-top:3px solid #e6a23c}.hero h1{font-size:38px;line-height:1.08;margin:7px 0 8px;letter-spacing:-.8px}.tagline{font-size:17px;color:#d8e4ec}.eyebrow{font-size:11px;letter-spacing:1.5px;font-weight:800;color:#39798c;margin-bottom:8px}.eyebrow.light{color:#c9dce6}.source-pill{border:1px solid #6d8da3;border-radius:24px;padding:11px 18px;font-size:11px;font-weight:800;white-space:nowrap}.tabs{height:58px;background:white;border-bottom:1px solid #d7e0e5;display:flex;gap:6px;padding:8px 24px;align-items:center;position:sticky;top:0;z-index:10}.tabs button{border:0;background:transparent;padding:12px 14px;border-radius:10px;color:#173f5f;font-weight:650;cursor:pointer}.tabs button:hover,.tabs button.active{background:#e9f1f4}.tabs button.active{box-shadow:inset 0 -2px 0 #39798c}main{max-width:1400px;margin:0 auto;padding:22px}.card{background:white;border:1px solid #d6e0e6;border-radius:12px;padding:20px 22px;margin-bottom:18px;box-shadow:0 1px 2px rgba(20,50,70,.03)}.card h2{font-size:21px;margin:0 0 14px;color:#123e60}.card h3{margin:0 0 8px;color:#173f5f}.sub{color:#5b7282;font-size:13px;margin:0 0 15px}.card-head{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}.card-head select,select{border:1px solid #c8d6df;border-radius:8px;padding:9px 12px;background:white;color:#173f5f;font-size:14px;min-width:145px}.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}.mini-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:12px 0}.mini-grid.four{grid-template-columns:repeat(4,1fr)}.kpi{border:1px solid #d5e0e6;border-radius:10px;padding:14px;background:#fff;min-width:0}.kpi>strong{display:block;font-size:23px;color:#173f5f;line-height:1.15}.kpi>span{display:block;font-size:11px;font-weight:800;color:#426174;margin-top:5px}.kpi>small{display:block;font-size:10px;color:#70828e;margin-top:5px}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}.big-stat{font-size:54px;font-weight:850;line-height:1;color:#174d73;margin:16px 0}.big-stat small{font-size:16px}.mode-grid{display:grid;grid-template-columns:260px 1fr;gap:26px;align-items:center;margin:16px 0}.donut-wrap{display:flex;justify-content:center}.donut{width:190px;height:190px;border-radius:50%;display:grid;place-items:center}.donut-hole{width:118px;height:118px;background:#fff;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center}.donut-hole b{font-size:20px}.donut-hole span{font-size:10px;color:#71838e;text-align:center}.bars{display:flex;flex-direction:column;gap:10px}.bar-row{display:grid;grid-template-columns:150px 1fr 54px;gap:10px;align-items:center;font-size:13px}.bar-row label{font-weight:700;color:#24465d}.bar-row b{text-align:right;font-size:12px}.track{height:11px;background:#e7edf0;border-radius:20px;overflow:hidden}.fill{height:100%;background:#317bb8;border-radius:20px}.insight,.answer-box{background:#edf5f3;border-left:3px solid #5d9b91;border-radius:6px;padding:12px 14px;color:#173f5f;font-size:13px;line-height:1.45;margin-top:16px}.insight strong{display:block;font-size:11px;margin-bottom:3px}.answer-box{border-left-color:#39798c}.no-travel-note{display:flex;justify-content:space-between;align-items:center;margin-top:2px;padding-top:8px;border-top:1px dashed #d5e0e6;color:#5f7481;font-size:12px}.no-travel-note span{display:flex;align-items:center;gap:7px;font-weight:700}.no-travel-note i{display:inline-block;width:10px;height:10px;border-radius:50%;background:#8d8d8d}.source-note{font-size:11px;color:#71838e;margin-top:10px}.distance-bars{display:flex;flex-direction:column;gap:13px;margin:18px 0}.distance-bars .bar-row{grid-template-columns:150px 1fr 54px}.heat-wrap{overflow:auto}.heat-grid{display:grid;gap:4px;min-width:720px}.heat-head{font-size:11px;font-weight:800;color:#557080;padding:8px 5px;text-align:center}.heat-mode{font-size:12px;font-weight:750;display:flex;align-items:center;padding:8px}.heat-cell{min-height:52px;border-radius:5px;background:#317bb8;display:grid;place-items:center;color:white;font-size:11px;font-weight:800}.peak{background:#fbf7ee;border-left:3px solid #e6a23c;padding:14px 12px;font-size:18px;font-weight:850;margin:8px 0}.speed-row{display:grid;grid-template-columns:90px 80px 1fr;align-items:center;gap:10px;margin:18px 0}.speed-fill{height:11px;background:#317bb8;border-radius:20px}.map-card{border:1px solid #d5e0e6;border-radius:9px;overflow:hidden;background:#f4f7f7}.map-controls{background:white;padding:10px 12px;border-bottom:1px solid #d5e0e6;display:flex;gap:18px;font-size:11px;font-weight:700}.map-controls input{accent-color:#317bb8}.map-svg{width:100%;height:auto;display:block}.map-legend{background:white;border-top:1px solid #d5e0e6;padding:8px 12px;display:flex;gap:18px;font-size:10px}.map-legend span{display:flex;gap:5px;align-items:center}.map-legend i{display:inline-block;width:18px;height:3px}.lg-rail{background:#315d78}.lg-station{width:8px!important;height:8px!important;border-radius:50%;background:#e7a63b;border:1px solid #173f5f}.lg-best{height:5px!important;width:5px!important;border-radius:50%;background:#7d9bb0}.map-note{background:white;padding:7px 12px;font-size:9px;color:#758792}.map-loading{height:420px;display:grid;place-items:center;color:#758792;background:#edf2f1}.table-wrap{overflow:auto;border:1px solid #d5e0e6;border-radius:8px}.table-wrap table{width:100%;border-collapse:collapse;font-size:12px;min-width:760px}.table-wrap th,.table-wrap td{padding:11px 10px;border-bottom:1px solid #e3eaee;text-align:left}.table-wrap th{background:#f5f8f9;color:#506b7b;font-size:10px;text-transform:uppercase;letter-spacing:.6px}.table-wrap tr:last-child td{border-bottom:0}.rec{display:grid;grid-template-columns:40px 1fr;gap:12px;padding:18px 0;border-top:1px solid #dbe3e8}.rec:first-of-type{margin-top:6px}.num{font-size:18px;font-weight:850;color:#5d9b91}.rec p{font-size:12px;line-height:1.5;margin:6px 0}.limits{margin:0;padding-left:20px;color:#405b6c;font-size:12px;line-height:1.8}.loading{min-height:100vh;display:grid;place-items:center;color:#173f5f;font-weight:800}footer{max-width:1400px;margin:0 auto;padding:10px 22px 30px;color:#71838e;font-size:10px}
+.map-helper{background:#f8faf9;border-bottom:1px solid #d5e0e6;padding:8px 12px;display:flex;justify-content:space-between;gap:12px;font-size:10px;color:#587181}.map-helper b{color:#173f5f}.map-legend{flex-wrap:wrap}.lg-ring{width:11px!important;height:11px!important;border-radius:50%;border:1px dashed #e3a43a}.lg-station.low{background:#d96c5f}.lg-station.mid{background:#e3a43a}.lg-station.high{background:#4e9a86}.station-bubble.low{fill:#d96c5f}.station-bubble.mid{fill:#e3a43a}.station-bubble.high{fill:#4e9a86}.station-bubble{opacity:.9}
+@media(max-width:900px){.hero{padding:24px;display:block}.hero h1{font-size:30px}.source-pill{display:inline-block;margin-top:15px}.kpi-grid,.mini-grid.four{grid-template-columns:repeat(2,1fr)}.two-col{grid-template-columns:1fr}.mode-grid{grid-template-columns:1fr}.tabs{overflow:auto}.tabs button{white-space:nowrap}.card-head{flex-direction:column}.bar-row{grid-template-columns:120px 1fr 48px}}
+
+/* Actual Mumbai basemap */
+.leaflet-map{width:100%;background:#e9efed;border-top:1px solid #d5e0e6}.leaflet-container{font-family:inherit;background:#dfe9e7}.leaflet-control-zoom a{color:#173f5f!important}.leaflet-tooltip{color:#173f5f;border:1px solid #cbd9e1;box-shadow:0 2px 10px rgba(20,50,70,.14);font-size:12px;line-height:1.35}.rail-legend{align-items:center}.rail-key{display:inline-block!important;width:24px!important;height:4px!important;border-radius:4px}.rail-key.western{background:#c54b4b}.rail-key.central{background:#2767a0}.rail-key.harbour{background:#6f55a8}.actual-map-card .map-controls{font-size:12px;padding:11px 14px}.actual-map-card .map-helper{font-size:11px;padding:9px 14px}.actual-map-card .map-note{font-size:10px;line-height:1.45}.actual-map-card .map-legend{font-size:10px;gap:12px 18px;padding:9px 14px}.actual-map-card .lg-station{width:10px!important;height:10px!important}
+.heat-controls{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:12px 0 8px;font-size:12px;font-weight:800;color:#4d6878}.heat-controls button{border:1px solid #cbd9e1;background:white;color:#31556b;border-radius:7px;padding:7px 10px;font-size:11px;font-weight:800;cursor:pointer}.heat-controls button:hover,.heat-controls button.active{background:#e9f1f4;border-color:#39798c;color:#173f5f}.heat-explain{font-size:11px;color:#5e7481;background:#f7faf9;border:1px solid #dce6e9;border-radius:7px;padding:9px 11px;margin-bottom:10px;line-height:1.45}.heat-cell{cursor:help;transition:transform .12s ease}.heat-cell:hover{transform:scale(1.04);outline:2px solid #173f5f;outline-offset:1px}.heat-footnote{font-size:10px;color:#71838e;margin-top:8px;line-height:1.4}@media(max-width:700px){.heat-controls{align-items:flex-start}.heat-grid{min-width:820px!important}}
+
+/* =========================================================
+   FINAL DASHBOARD - COMMUTING TEXT VISIBILITY FIX
+   Prevent host dashboard styles from making commuting text
+   invisible on white/light backgrounds.
+   ========================================================= */
+
+.commuting-module {
+  color: #17324d;
+}
+
+.commuting-module h1,
+.commuting-module h2,
+.commuting-module h3,
+.commuting-module h4,
+.commuting-module h5,
+.commuting-module h6 {
+  color: #17324d !important;
+}
+
+.commuting-module p,
+.commuting-module li,
+.commuting-module label {
+  color: #17324d !important;
+}
+
+.commuting-module span {
+  color: inherit;
+}
+
+.commuting-module .muted,
+.commuting-module .description,
+.commuting-module .metric-description,
+.commuting-module .subtitle,
+.commuting-module .caption,
+.commuting-module .source,
+.commuting-module .kpi-description {
+  color: #5b6b7a !important;
+}
+
+.commuting-module .metric-value,
+.commuting-module .kpi-value,
+.commuting-module .stat-value {
+  color: #174f7c !important;
+}
+
+.commuting-module .metric-label,
+.commuting-module .kpi-label,
+.commuting-module .stat-label {
+  color: #17324d !important;
+}
+
+.commuting-module svg text {
+  fill: #17324d !important;
+}
+
+.commuting-module svg .recharts-text {
+  fill: #17324d !important;
+}
+
+.commuting-module svg .recharts-cartesian-axis-tick-value {
+  fill: #5b6b7a !important;
+}
+
+.commuting-module button {
+  color: #17324d !important;
+}
+
+.commuting-module button svg {
+  color: inherit !important;
+}
+
+
+/* =========================================================
+   COMMUTING DASHBOARD - FINAL TEXT VISIBILITY FIX
+   ========================================================= */
+
+/* Text inside the white evidence/KPI cards */
+.commuting-module .card p,
+.commuting-module .card span,
+.commuting-module .card label,
+.commuting-module .panel p,
+.commuting-module .panel span,
+.commuting-module .panel label {
+  color: #17324d !important;
+}
+
+/* Common descriptive/secondary text */
+.commuting-module .description,
+.commuting-module .subtitle,
+.commuting-module .caption,
+.commuting-module .muted,
+.commuting-module .source,
+.commuting-module .metric-description,
+.commuting-module .kpi-description {
+  color: #52677a !important;
+}
+
+/* KPI and chart values */
+.commuting-module .metric-value,
+.commuting-module .kpi-value,
+.commuting-module .stat-value {
+  color: #174f7c !important;
+}
+
+/* Labels */
+.commuting-module .metric-label,
+.commuting-module .kpi-label,
+.commuting-module .stat-label {
+  color: #17324d !important;
+}
+
+/* Recharts text */
+.commuting-module .recharts-text {
+  fill: #17324d !important;
+}
+
+.commuting-module .recharts-cartesian-axis-tick-value {
+  fill: #52677a !important;
+}
+
+/* Percentages beside horizontal bars */
+.commuting-module .bar-label,
+.commuting-module .percentage,
+.commuting-module .percent,
+.commuting-module .value-label {
+  color: #52677a !important;
+}
+
+/* Select controls */
+.commuting-module select,
+.commuting-module option {
+  color: #17324d !important;
+  background: #ffffff !important;
+}
+/* Commuting dashboard hero heading */
+.commuting-module .hero h1 {
+  color: #ffffff !important;
+}
